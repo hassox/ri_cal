@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ri_cal}
-  s.version = "0.8.8"
+  s.version = "0.8.9"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rick DeNatale"]
@@ -187,7 +187,6 @@ A Google group for discussion of this library has been set up http://groups.goog
     "spec/ri_cal/property_value_spec.rb",
     "spec/ri_cal/required_timezones_spec.rb",
     "spec/ri_cal_spec.rb",
-    "spec/spec.opts",
     "spec/spec_helper.rb",
     "tasks/gem_loader/load_active_support.rb",
     "tasks/gem_loader/load_tzinfo_gem.rb",

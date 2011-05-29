@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'rake'
-# require 'jeweler'
+require 'jeweler'
 
 begin
-  require 'ad_agency'
+  #require 'ad_agency'
   Jeweler::Tasks.new do |gem|
     gem.name = "ri_cal"
     gem.summary = %Q{a new implementation of RFC2445 in Ruby}
@@ -26,8 +26,8 @@ A Google group for discussion of this library has been set up http://groups.goog
     # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
-  Jeweler::GemcutterTasks.new
-  Jeweler::AdAgencyTasks.new
+  #Jeweler::GemcutterTasks.new
+  #Jeweler::AdAgencyTasks.new
 # rescue LoadError => ex
 #   puts ex
 #   puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"

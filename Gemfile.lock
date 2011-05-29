@@ -1,0 +1,31 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ad_agency (0.1.2)
+    diff-lcs (1.1.2)
+    git (1.2.5)
+    jeweler (1.6.0)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    rake (0.8.7)
+    rspec (2.0.0.beta.12)
+      rspec-core (= 2.0.0.beta.12)
+      rspec-expectations (= 2.0.0.beta.12)
+      rspec-mocks (= 2.0.0.beta.12)
+    rspec-core (2.0.0.beta.12)
+    rspec-expectations (2.0.0.beta.12)
+      diff-lcs (>= 1.1.2)
+    rspec-mocks (2.0.0.beta.12)
+    tzinfo (0.3.27)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ad_agency
+  jeweler
+  rake (= 0.8.7)
+  rspec (= 2.0.0.beta.12)
+  rspec-mocks (= 2.0.0.beta.12)
+  tzinfo
